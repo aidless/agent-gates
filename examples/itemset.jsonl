@@ -1,0 +1,6 @@
+{"id": "t1", "cat": "basic", "q": "配置文件名是什么？", "expect": ["config.yml"], "src": "demo", "hint": "", "note": ""}
+{"id": "t2", "cat": "basic", "q": "默认端口是多少？", "expect": ["8080"], "src": "demo", "hint": "", "note": ""}
+{"id": "t3", "cat": "basic", "q": "日志写到哪里？", "expect": ["logs/app.log"], "src": "demo", "hint": "", "note": ""}
+{"id": "t4", "cat": "basic", "q": "重试几次？", "expect": ["3"], "src": "demo", "hint": "", "note": ""}
+{"id": "t5", "cat": "hard", "q": "哪两个文件必须一起改？", "expect": ["config.yml", "secrets.env"], "src": "demo", "hint": "", "note": ""}
+{"id": "t6", "cat": "hard", "q": "回滚依赖哪个函数？", "expect": ["do_rollback"], "src": "demo", "hint": "", "note": ""}
